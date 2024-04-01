@@ -1,5 +1,5 @@
 const express = require("express");
-// const JWT_SECRET = require("../config");
+
 require('dotenv').config();
 const {User,Account} = require("../db");
 const  jwt= require("jsonwebtoken");

@@ -1,5 +1,5 @@
 const User=require('./db');
-const JWT_SECRET=require('./config');
+
 const jwt=require('jsonwebtoken');
 require('dotenv').config();
 const authMiddleware=(req,res,next) => {
